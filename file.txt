@@ -8,4 +8,5 @@ Now all the changes are on places. Keep it up.
 
 
 We can do something new thing in our day to day life
-We need to check what are diiferences between master and feature-branch
+
+Now, you can see different what are the chnages.
