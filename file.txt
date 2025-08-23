@@ -1,4 +1,8 @@
 This is a new file. In this file, I added some points
 Okay, got it and you can add it.
 In the file you know what you need to do
+<<<<<<< HEAD
 New file and This file can be done for different things
+=======
+You know if you don't update this file daily then can end up with different things
+>>>>>>> a2a6c9c (This is a new commit)
