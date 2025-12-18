@@ -1,0 +1,13 @@
+name: DEMO WORKflow
+on:
+  push:
+    branches: [master]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    environment: Prod
+    steps:
+      - name: Print environment variable
+        run: echo "Deploying version ${{ vars.APP_VERSION }}"
+      - name: Use secret
+        run: echo "Connecting with API key ${{ secrets.API_KEY }}"
