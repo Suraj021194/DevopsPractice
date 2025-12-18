@@ -9,5 +9,7 @@ jobs:
     steps:
       - name: Print environment variable
         run: echo "Deploying version ${{ vars.APP_VERSION }}"
-      - name: Use secret
-        run: echo "Connecting with API key ${{ secrets.API_KEY }}"
+      - name: Use secret safely
+        env:
+          API_KEY: ${{ secrets.API_KEY }}
+        run: echo "Connecting with API key $API_KEY"
