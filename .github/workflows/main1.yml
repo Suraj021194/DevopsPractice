@@ -2,6 +2,8 @@ name: DEMO WORKflow
 on:
   push:
     branches: [master]
+    paths:
+      - file.txt
 jobs:
   build:
     runs-on: ubuntu-latest
