@@ -15,7 +15,7 @@ jobs:
 
       # Step 2: Print environmet variable
       - name: Print environmet variable
-      - uses: echo "Deploying version ${{ vars.APP_VERSION }}"
+      - run: echo "Deploying version ${{ vars.APP_VERSION }}"
 
       # Step 3: Build with Maven
       - name: Build with Maven
