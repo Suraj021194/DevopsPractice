@@ -2,6 +2,8 @@ name: DEMO WORKflow
 on:
   push:
     branches:  [master]
+    paths:
+      - .github/workflows/demo.yaml
 jobs:
   build:
     runs-on: ubuntu-latest
